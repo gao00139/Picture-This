@@ -38,3 +38,19 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+picture img {
+  width: 100%;  
+  height: auto; 
+  display: block;
+}
+
+@media (min-width: 960px) {
+  .header {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+
+  picture img {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+}
